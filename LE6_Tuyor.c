@@ -47,6 +47,10 @@ int main()
         printf("Enter choice [1-5]: ");
         scanf("%d", &choice);
 
+        if (choice == 5) {
+            break;
+        }
+
         switch (choice)
         {
         case 1:
@@ -66,4 +70,5 @@ int main()
         }
     }
     return 0;
+
 }
